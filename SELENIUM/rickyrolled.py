@@ -4,13 +4,12 @@ from selenium.webdriver.common.by import By
 from selenium.webdriver.common.keys import Keys
 from selenium.webdriver.common.action_chains import ActionChains
 
-browser = webdriver.Chrome('D:\VSCODE\chromedriver.exe')
+browser = webdriver.Chrome('D:\VSCODE\PythonoweLove\chromedriver.exe')
 browser.maximize_window()
 browser.delete_all_cookies()
 browser.get("https://www.youtube.com")
 
-# song_name='Rick Astley - Never Gonna Give You Up (Official Music Video)'
-song_name='Gawryle - Harnaś Ice Tea'
+song_name='Rick Astley - Never Gonna Give You Up (Official Music Video)'
 
 sleep(2)
 
