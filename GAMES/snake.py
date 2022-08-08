@@ -50,10 +50,10 @@ while key != ESC:
     snake.insert(0, (y, x))
     
     # uderzenie w sciane
-    if y == 0: snake[0][0] = [18][x]
-    if y == 19: snake[0][0] = [0][x]
-    if x == 0: snake[0][1] = [y][58]
-    if x == 59: snake[0][1] = [y][0]
+    if y == 0: break
+    if y == 19: break
+    if x == 0: break
+    if x == 59: break
     
     # zjedzenie samego siebie
     if snake[0] in snake[1:]: break
